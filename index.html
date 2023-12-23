@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="cart" onclick="toggleCart()">Cart</div>
+
+  <div id="cart-container">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-list"></ul>
+  </div>
+
+  <div id="product-container">
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="product1.jpeg" alt="Product 1">
+      <div class="product-info">
+        <h3>Product 1</h3>
+        <p>Bizanne Fashion Medium Size Standard Backpack For Women & Girls, Latest Trendy Backpack (Bv1296_Pink)</p>
+        <p>Price: ₹800</p>
+        <button onclick="addToCart('Product 1', 800)">Add to Cart</button>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="product2.jpeg" alt="Product 2">
+      <div class="product-info">
+        <h3>Product 2</h3>
+        <p>Alice Fashion Rucksack PU Leather Women Girls Ladies Backpack Travel bag Ladies Casual Shoulder Bag for grl</p>
+        <p>Price: ₹1000</p>
+        <button onclick="addToCart('Product 2', 1000)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product3.jpeg" alt="Product 3">
+      <div class="product-info">
+        <h3>Product 3</h3>
+        <p>Willton - Multi- Hearts Latest Girls Bags || Girls School/College Bags || Girls Tuition Bags || Girls Office || Casual Standard Backpack s For Women || Water Resistant And Lightweight Bag</p>
+        <p>Price: ₹1200</p>
+        <button onclick="addToCart('Product 3', 1200)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product4.jpeg" alt="Product 4">
+      <div class="product-info">
+        <h3>Product 4</h3>
+        <p>SKYTHEME Mini Backpack Anti-Theft Bookbag Travel Rucksack Shoulder Bag</p>
+        <p>Price: ₹900</p>
+        <button onclick="addToCart('Product 4', 900)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product5.jpeg" alt="Product 5">
+      <div class="product-info">
+        <h3>Product 5</h3>
+        <p>Ratfire Casual School College Bag, Backpack & Handbag For Girls (Multi Color)</p>
+        <p>Price: ₹1000</p>
+        <button onclick="addToCart('Product 5', 1000)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="product6.jpeg" alt="Product 6">
+      <div class="product-info">
+        <h3>Product 6</h3>
+        <p>Waterproof Nylon Travel Backpack Teenagers Girls School Bags for Women Shoulder Bag Women Little Fresh Backpack</p>
+        <p>Price: ₹1200</p>
+        <button onclick="addToCart('Product 6', 1200)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
